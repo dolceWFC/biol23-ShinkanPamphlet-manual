@@ -5,7 +5,7 @@
 @require: latexcmds/latexcmds
 
 document (|
-  title = {パンフレットフォーマット用試作PDF(これがtitle)};
+  title = {パンフレットフォーマット(これがtitle)};
   num-chapter = 1;
   start-page = 1;
 |) '<
