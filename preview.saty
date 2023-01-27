@@ -1,0 +1,49 @@
+@require: Biol23-Pamphlet
+@require: fss/fss
+@require: fss/style
+@require: itemize
+@require: latexcmds/latexcmds
+
+document (|
+  title = {パンフレットフォーマット用試作PDF};
+  num-chapter = 0;
+  start-page = 0;
+|) '<
+    +section{この文書について} <
+        +p {
+            この文書は\SATySFi;によって作られています。
+        }
+        +subsection{文章の書き方について} <
+        +p {
+            文書はtitle, section, subsection, paragraphの四段レイヤーによって成立しています。
+            様々なコマンドによってスタイルを定義できますが, コマンドのapplyはこちらで行います。
+            レイヤーがわかるような文書を.txt, .docxなどで提出してください。
+        }
+        >
+        +subsection{図や表の挿入について} <
+        +p {
+            図や表はこちらでコマンドによって処理します。\linebreak;
+            図や表の構成がわかるように記述してください。
+        }
+        +listing {
+            *図:table
+            *表:figure
+        }
+        >
+    >
+    +newpage;
+    +section{デザインについて} <
+        +subsection{フッターについて} <
+        +p {
+            左ページのフッターにはページ番号と章タイトルが表示されます。\linebreak;
+            右ページのフッターにはページ番号と冊子タイトルが表示されます。
+        }
+        >
+        +subsection{今後について} <
+        +p {
+            今後もしばらくはコマンドのアップデートを続けます。基本的な文章構造は変わりません。
+        }
+        >
+    +bunseki { 島村啓生 }
+    >
+>
