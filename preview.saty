@@ -6,7 +6,7 @@
 
 document (|
   title = {パンフレットフォーマット用試作PDF};
-  num-chapter = 0;
+  num-chapter = 1;
   start-page = 1;
 |) '<
     +section{この文書について} <
