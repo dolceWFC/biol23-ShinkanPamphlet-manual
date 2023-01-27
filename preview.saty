@@ -5,19 +5,20 @@
 @require: latexcmds/latexcmds
 
 document (|
-  title = {パンフレットフォーマット用試作PDF};
+  title = {パンフレットフォーマット用試作PDF(これがtitle)};
   num-chapter = 1;
   start-page = 1;
 |) '<
-    +section{この文書について} <
+    +section{この文書について(これがsection)} <
         +p {
             この文書は\SATySFi;によって作られています。
         }
-        +subsection{文章の書き方について} <
+        +subsection{これがsubsection} <
         +p {
             文書はtitle, section, subsection, paragraphの四段レイヤーによって成立しています。
             様々なコマンドによってスタイルを定義できますが, コマンドのapplyはこちらで行います。
-            レイヤーがわかるような文書を.txt, .docxなどで提出してください。
+            レイヤーがわかるような文書を.txt, .docxなどで提出してください。 \linebreak;
+            (これがparagraph)
         }
         >
         +subsection{図や表の挿入について} <
