@@ -1,2 +1,2 @@
 all:
-	satysfi preview.saty
+	satysfi manual.saty
