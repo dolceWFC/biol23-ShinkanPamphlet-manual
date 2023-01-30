@@ -13,7 +13,7 @@ document (|
         +p {
             この文書は\SATySFi;によって作られています.
         }
-        +subsection{これがsubsection} <
+        +subsection{レイヤー構造について(これがsubsection)} <
         +p {
             文書はtitle, section, subsection, paragraphの四段レイヤーによって成立しています.
             様々なコマンドによってスタイルを定義できますが, コマンドのapplyはこちらで行います.
